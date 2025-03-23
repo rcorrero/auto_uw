@@ -1,0 +1,22 @@
+{
+  "business_name": "Joe's Diner",
+  "business_type": "restaurant",
+  "annual_revenue": 500000,
+  "employee_count": 25,
+  "state": "CA",
+  "city": "San Francisco",
+  "years_in_business": 5,
+  "business_description": "Family-owned restaurant serving American cuisine. Located in a busy downtown area with high foot traffic. Open 7 days a week, 24 hours a day. Features a full-service bar and outdoor seating area.",
+  "claims_history": [
+    {
+      "date": "2023-01-15",
+      "type": "property",
+      "amount": 2500
+    },
+    {
+      "date": "2023-06-30",
+      "type": "liability",
+      "amount": 5000
+    }
+  ]
+} 

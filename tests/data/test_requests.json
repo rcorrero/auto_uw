@@ -1,0 +1,52 @@
+{
+  "restaurant": {
+    "business_name": "Test Restaurant",
+    "business_type": "restaurant",
+    "annual_revenue": 750000,
+    "employee_count": 30,
+    "state": "NY",
+    "city": "New York",
+    "years_in_business": 3,
+    "business_description": "Upscale restaurant in Manhattan serving contemporary American cuisine.",
+    "claims_history": [
+      {
+        "date": "2023-03-15",
+        "type": "property",
+        "amount": 3000
+      }
+    ]
+  },
+  "retail": {
+    "business_name": "Test Retail Store",
+    "business_type": "retail",
+    "annual_revenue": 1200000,
+    "employee_count": 45,
+    "state": "CA",
+    "city": "Los Angeles",
+    "years_in_business": 8,
+    "business_description": "Large retail store selling electronics and home goods.",
+    "claims_history": []
+  },
+  "manufacturing": {
+    "business_name": "Test Manufacturing",
+    "business_type": "manufacturing",
+    "annual_revenue": 2500000,
+    "employee_count": 100,
+    "state": "TX",
+    "city": "Houston",
+    "years_in_business": 12,
+    "business_description": "Manufacturing facility producing industrial equipment.",
+    "claims_history": [
+      {
+        "date": "2023-01-10",
+        "type": "workers_comp",
+        "amount": 15000
+      },
+      {
+        "date": "2023-07-20",
+        "type": "property",
+        "amount": 8000
+      }
+    ]
+  }
+} 

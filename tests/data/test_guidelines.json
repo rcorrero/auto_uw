@@ -1,0 +1,52 @@
+{
+  "restaurant": [
+    {
+      "doc_id": "guideline_restaurant_1",
+      "title": "Restaurant Safety Guidelines",
+      "content": "Standard safety guidelines for restaurant operations including food handling, kitchen safety, and customer service areas.",
+      "doc_type": "guideline",
+      "metadata": {
+        "business_type": "restaurant",
+        "version": "1.0",
+        "last_updated": "2024-03-22"
+      }
+    },
+    {
+      "doc_id": "guideline_restaurant_2",
+      "title": "Liquor Liability Guidelines",
+      "content": "Guidelines for managing liquor liability risks in restaurants with bar operations.",
+      "doc_type": "guideline",
+      "metadata": {
+        "business_type": "restaurant",
+        "version": "1.0",
+        "last_updated": "2024-03-22"
+      }
+    }
+  ],
+  "retail": [
+    {
+      "doc_id": "guideline_retail_1",
+      "title": "Retail Store Safety Guidelines",
+      "content": "Comprehensive safety guidelines for retail operations including customer safety, inventory management, and security measures.",
+      "doc_type": "guideline",
+      "metadata": {
+        "business_type": "retail",
+        "version": "1.0",
+        "last_updated": "2024-03-22"
+      }
+    }
+  ],
+  "manufacturing": [
+    {
+      "doc_id": "guideline_manufacturing_1",
+      "title": "Manufacturing Safety Guidelines",
+      "content": "Detailed safety guidelines for manufacturing operations including equipment safety, worker protection, and facility management.",
+      "doc_type": "guideline",
+      "metadata": {
+        "business_type": "manufacturing",
+        "version": "1.0",
+        "last_updated": "2024-03-22"
+      }
+    }
+  ]
+} 

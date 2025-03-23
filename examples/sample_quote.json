@@ -1,0 +1,21 @@
+{
+  "business_name": "Joe's Diner",
+  "quote_id": "QUOTE_20240322_001",
+  "risk_profile": "medium",
+  "risk_factors": [
+    "High foot traffic location",
+    "Full-service bar operations",
+    "Outdoor seating area",
+    "Recent claims history"
+  ],
+  "risk_score": 0.65,
+  "premium_estimate": 12500.00,
+  "conditions": [
+    "Regular safety inspections required",
+    "Employee training program implementation",
+    "Security system installation",
+    "Outdoor area maintenance schedule"
+  ],
+  "explanation": "Premium calculation based on business type, location, claims history, and risk factors. Additional conditions are required to mitigate identified risks.",
+  "report_path": "reports/quote_20240322_001.pdf"
+} 

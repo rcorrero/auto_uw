@@ -1,0 +1,45 @@
+[project]
+name = "auto_uw"
+version = "0.1.0"
+description = "Automated underwriting agent for small business insurance policies"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+dependencies = [
+    "pydantic>=2.0.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "python-dotenv>=1.0.0",
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "mypy>=1.0.0",
+    "anthropic>=0.18.0",
+    "pandas>=2.0.0",
+    "python-multipart>=0.0.6",  # Required for FastAPI file uploads
+    "python-jose[cryptography]>=3.3.0",  # For JWT handling if needed
+    "click>=8.0.0",  # For CLI
+    "reportlab>=4.1.0",
+]
+requires-python = ">=3.9"
+
+[project.scripts]
+auto-uw = "auto_uw.cli:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true 

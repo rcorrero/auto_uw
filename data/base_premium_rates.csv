@@ -1,0 +1,16 @@
+business_type,revenue_bracket,base_rate
+restaurant,0-500000,2500
+restaurant,500001-1000000,3500
+restaurant,1000001-2000000,5000
+retail,0-500000,2000
+retail,500001-1000000,3000
+retail,1000001-2000000,4500
+professional_services,0-500000,1500
+professional_services,500001-1000000,2500
+professional_services,1000001-2000000,4000
+manufacturing,0-500000,3000
+manufacturing,500001-1000000,4500
+manufacturing,1000001-2000000,6500
+construction,0-500000,3500
+construction,500001-1000000,5000
+construction,1000001-2000000,7500 
