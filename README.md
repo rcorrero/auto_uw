@@ -272,11 +272,6 @@ isort .
    - Check network connectivity
    - Review large batch processing
 
-### Getting Help
-- Check the [issues](https://github.com/yourusername/auto_uw/issues) page
-- Review the [documentation](https://github.com/yourusername/auto_uw/wiki)
-- Contact support at support@autouw.com
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
